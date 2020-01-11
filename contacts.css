@@ -1,0 +1,54 @@
+fieldset {
+    background-color: aqua;
+  display: block;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  max-width: 450px;
+  border: 2px groove;
+background-image: url(https://www.flaticon.com/premium-icon/icons/svg/1687/1687024.svg);
+ background-repeat: no-repeat;
+ background-position: right;
+ background-size: 35%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 8px 10px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(38, 31, 139);
+  border-radius: 4px;
+  }
+  input[type=submit] {
+    padding:10px 15px; 
+    background:rgb(129, 189, 111); 
+    border: 2px;
+    margin-left: 156px;
+  margin-right: 6px;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  input[type=submit]:focus {
+    background-color: lightblue;
+  }
+  input[type=submit]:focus {
+    border: 3px solid #555;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }

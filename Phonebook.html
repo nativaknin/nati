@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nati's Phone book</title>
+    <script type="text/javascript" src="contacts.js"></script>
+    <link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+<body>
+    <form>
+       <fieldset id="1">
+        <legend><h1>Phone Book By Nati Vaknin:</h1></legend>
+        First Name: <input type="text" id="first"><br>
+        Last Name: <input type="text" id="last"><br>
+        ID number: <input type="text" id="idnum"><br>
+        <input type="submit" value="Search" onclick="searchXML()">
+        <br>
+</fieldset>
+    <fieldset style="background-color: rgb(72, 189, 173);">
+        <legend><h2>The Result:</h2></legend>
+        <div id="results">
+        The results will display here...
+    </div>
+</fieldset>
+</form>
+    </body>
+    
+</html>
